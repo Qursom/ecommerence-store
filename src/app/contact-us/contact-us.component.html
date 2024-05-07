@@ -1,0 +1,18 @@
+<form [formGroup]="contactForm" (ngSubmit)="submitForm()">
+  <h1>Contact Us</h1>
+
+  <p>Feel free to reach out to us with any questions or feedback. We'll get back to you as soon as possible.</p>
+
+  <div class="contact-form">
+    <label for="name">Name:</label>
+    <input type="text" formControlName="name">
+
+    <label for="email">Email:</label>
+    <input type="email" formControlName="email">
+
+    <label for="message">Message:</label>
+    <textarea formControlName="message"></textarea>
+
+    <button type="submit" [disabled]="!contactForm.valid">Submit</button>
+  </div>
+</form>
