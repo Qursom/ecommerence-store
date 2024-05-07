@@ -2,26 +2,43 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Angular EcommerenceStore 
+Welcome to EcommerenceStore, a simple storefront built with Angular, showcasing various Angular concepts including standalone apps, modules, services, components, and routing. In this tutorial, users will learn how to perform basic CRUD (Create, Read, Update, Delete) operations on products. The UI is implemented through PrimeNG.
 
-## Code scaffolding
+## Features
+**Standalone App:** The project is structured as a standalone Angular application.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**Modules:** Utilizes Angular modules for better organization and separation of concerns.
 
-## Build
+**Services:** Demonstrates the use of Angular services for data management and business logic.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+**Components:** Various components for different parts of the storefront, like product listing, editing, and addition.
 
-## Running unit tests
+**Routing:** Implements Angular routing to navigate between different sections of the application.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**CRUD Operations:** Users can perform Create, Read, Update, and Delete operations on products.
 
-## Running end-to-end tests
+## Getting Started
+## Prerequisites
+Before you begin, ensure you have the following installed:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Node.js and npm
+**Angular CLI:** npm install -g @angular/cli
+Prime NG
+## Installation
+**Clone the repository:**
 
-## Further help
+git clone [https://github.com/Qursom/ecommerence-store.git]
+## Install dependencies:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+npm install
+## Usage
+
+**Run the development server:**
+
+ng serve
+
+Open your browser and navigate to http://localhost:4200/ to see the app in action.
+## License
+This project is licensed under the MIT License.
